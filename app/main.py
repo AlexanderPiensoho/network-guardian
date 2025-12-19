@@ -15,6 +15,9 @@ def main():
         if target_type == "http":
             status = req(target["url"])
             print(f"status: {status}")
+        elif target_type == "ping":
+            ping_host = ping(target["host"])
+            print(f"Ping: {ping_host}")
 
 if __name__ == "__main__":
     main()
