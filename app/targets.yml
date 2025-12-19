@@ -1,0 +1,8 @@
+targets:
+  - name: "Min Webbshop"
+    url: "https://www.google.com"
+    interval: 60
+    type: "http"
+  - name: "Databas Server"
+    host: "8.8.8.8"
+    type: "ping"
